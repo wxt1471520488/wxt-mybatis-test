@@ -1,0 +1,12 @@
+<configuration>
+    <!-- 数据源配置信息 -->
+    <dataSource>
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql:///wxt"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+    </dataSource>
+
+    <!-- mapper配置文件路径 -->
+    <mapper resource="src/main/resources/mapper"/>
+</configuration>

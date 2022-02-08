@@ -1,0 +1,7 @@
+<mapper namespace="com.wangxt.mybatis.test.dao.RoleDao">
+
+    <select id="queryRole" resultType="com.wangxt.mybatis.test.pojo.RoleDo" paramterType="java.lang.Long">
+        select * from role where id = #{id}
+    </select>
+
+</mapper>
